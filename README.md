@@ -5,7 +5,7 @@ utmp parser for node.js
 ## Installation
 
 ```
-$ npm install utmp 
+$ npm install samplx-utmp 
  ```
 
 ## Usage
