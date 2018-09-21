@@ -1,6 +1,6 @@
 {
   "name": "samplx-utmp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "utmp parser for node",
   "main": "lib/index.js",
   "scripts": {
@@ -16,5 +16,8 @@
     "ref-array": "~1.1.0",
     "ref-struct": "~1.0.0",
     "ref-union": "~1.0.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
   }
 }
