@@ -1,11 +1,11 @@
-# utmp 
+# utmp
 
 utmp parser for node.js
 
 ## Installation
 
-```
-$ npm install samplx-utmp 
+```bash
+npm install samplx-utmp
  ```
 
 ## Usage
@@ -13,9 +13,9 @@ $ npm install samplx-utmp
 ### Example
 
 ```js
-var UtmpParser = require('utmp');
+const UtmpParser = require('samplx-utmp');
 
-var p = new UtmpParser('/var/log/wtmp');
+const p = new UtmpParser('/var/log/wtmp');
 
 p.on('data', function(d) {
   console.log("got record:", d);
@@ -27,7 +27,7 @@ p.run();
 
 outputs something like...
 
-```
+```text
 got record: { type: 'USER_PROCESS',
   pid: 54172,
   line: 'pts/0',
