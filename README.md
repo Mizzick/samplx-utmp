@@ -1,3 +1,8 @@
+### Changes in this fork
+
+- removed binary from sources
+- node v12.x support
+
 # utmp
 
 utmp parser for node.js
